@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         <div className={styles.description}>
           This website is still under construction though.
           <p>
-            For now, so you can reach me at{' '}
+            For now, you can reach me at{' '}
             <a className='link' href='mailto:krai.alapide@gmail.com'>
               krai.alapide@gmail.com
             </a>{' '}
