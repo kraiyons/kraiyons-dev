@@ -8,11 +8,6 @@
   height: 100vh;
 }
 
-.link {
-  color: #21b6a8;
-  text-decoration: none;
-}
-
 .main {
   padding: 5rem 0;
   flex: 1;

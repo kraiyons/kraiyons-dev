@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -26,10 +26,16 @@ const Home: NextPage = () => {
           This website is still under construction though.
           <p>
             For now, you can reach me at{' '}
-            <a className='link' href='mailto:krai.alapide@gmail.com'>
+            <a className='special_link' href='mailto:krai.alapide@gmail.com'>
               krai.alapide@gmail.com
             </a>{' '}
             instead!
+          </p>
+          <p>
+            I made links to some of my personal work.{' '}
+            <Link href='/projects'>
+              <a className='link'> See them here</a>
+            </Link>
           </p>
         </div>
       </main>

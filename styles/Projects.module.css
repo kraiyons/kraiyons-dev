@@ -1,0 +1,22 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.project_link {
+  padding: 1rem 0;
+}
+.project_link a {
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: #21b6a8;
+  padding: 0.5rem 1rem;
+}
+.project_link p {
+  font-size: 1.5rem;
+}
