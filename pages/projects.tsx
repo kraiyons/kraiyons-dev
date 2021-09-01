@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Projects.module.css';
 
 const Home: NextPage = () => {
@@ -10,7 +11,9 @@ const Home: NextPage = () => {
         <meta name='description' content="Krai's projects" />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
+      <Link href='/'>
+        <a className='link_home'> Go Back Home</a>
+      </Link>
       <main className={styles.main}>
         <h1 className={styles.subtitle}>
           (WIP) Here are the links to some of my personal work

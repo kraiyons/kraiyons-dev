@@ -29,3 +29,9 @@ a {
   color: #21b6a8;
   text-decoration: none;
 }
+
+.link_home {
+  color: #21b6a8;
+  text-decoration: none;
+  padding: 1rem 0;
+}
