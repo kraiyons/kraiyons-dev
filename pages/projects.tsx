@@ -30,8 +30,8 @@ const Home: NextPage = () => {
         <div className={styles.project_link}>
           <a href='#'>SickFits</a>
           <p>
-            An ecommerce platform made during my study of Wes Bos's Advanced
-            React
+            An ecommerce platform made during my study of Wes Bos&apos;s
+            Advanced React
           </p>
           Written in React, NextJS, Apollo, GraphQL, Node, Express, Yoga, and
           Prisma
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
         <div className={styles.project_link}>
           <a href='#'>SimpleBudget</a>
           <p>
-            A simple frontend application used to calculate an individual's
+            A simple frontend application used to calculate an individual&apos;s
             expenses
           </p>
           Written in VueJS
