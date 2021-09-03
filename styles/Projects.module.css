@@ -11,6 +11,10 @@
 .project_link {
   padding: 1rem 0;
 }
+.project_link_inactive {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
 .project_link a {
   font-size: 2rem;
   font-weight: 600;

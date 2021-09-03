@@ -35,7 +35,9 @@ const Home: NextPage = () => {
           </p>
           Written in VueJS
         </div>
-        <div className={styles.project_link}>
+        <div
+          className={`${styles.project_link} ${styles.project_link_inactive}`}
+          title='Coming soon..'>
           <a href='#'>SickFits</a>
           <p>
             An ecommerce platform made during my study of Wes Bos&apos;s
@@ -44,7 +46,9 @@ const Home: NextPage = () => {
           Written in React, NextJS, Apollo, GraphQL, Node, Express, Yoga, and
           Prisma
         </div>
-        <div className={styles.project_link}>
+        <div
+          className={`${styles.project_link} ${styles.project_link_inactive}`}
+          title='Coming soon..'>
           <a href='#'>HR App</a>
           <p>
             A full web application that handles employee registration and leave
