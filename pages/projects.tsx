@@ -19,13 +19,21 @@ const Home: NextPage = () => {
           (WIP) Here are the links to some of my personal work
         </h1>
         <div className={styles.project_link}>
-          <a href='http://zil.kraiyons.dev'>CoinViewer</a>
+          <a href='https://zil.kraiyons.dev'>CoinViewer</a>
           <p>
             A frontend application that displays coins from Zilliqa&apos;s
             TestNet Blockchain.
           </p>
           Written in React Hooks, ZilliqaJS, TailwindCSS, Jest and Testing
           Library
+        </div>
+        <div className={styles.project_link}>
+          <a href='https://budget.kraiyons.dev/'>SimpleBudget</a>
+          <p>
+            A simple frontend application used to calculate an individual&apos;s
+            expenses
+          </p>
+          Written in VueJS
         </div>
         <div className={styles.project_link}>
           <a href='#'>SickFits</a>
@@ -44,14 +52,6 @@ const Home: NextPage = () => {
           </p>
           Written in React Hooks, TailwindCSS, Node, Express, MongoDB and
           Mongoose
-        </div>
-        <div className={styles.project_link}>
-          <a href='#'>SimpleBudget</a>
-          <p>
-            A simple frontend application used to calculate an individual&apos;s
-            expenses
-          </p>
-          Written in VueJS
         </div>
       </main>
     </div>
