@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       </Link>
       <main className={styles.main}>
         <h1 className={styles.subtitle}>
-          (WIP) Here are the links to some of my personal work
+          (WIP) Here are the links to some of my personal work and research
         </h1>
         <div className={styles.project_link}>
           <a href='https://zil.kraiyons.dev'>CoinViewer</a>
