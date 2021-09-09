@@ -5,6 +5,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+html {
+  transition: background-color 500ms ease-in;
+  transition: color 500ms ease-in;
+}
 
 a {
   color: inherit;
@@ -13,6 +17,15 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.dark {
+  background-color: #212529 !important;
+  color: #fff;
+}
+
+.dark .special_link {
+  color: #212529;
 }
 
 .special_link {

@@ -41,7 +41,6 @@ const Home: NextPage = () => {
               </Link>
             </p>
           </div>
-          <button>{darkMode ? 'Light' : 'Dark'}</button>
         </main>
       </div>
     </AppWrapper>
