@@ -1,6 +1,11 @@
+import { useEffect } from 'react';
 import useDarkMode from '../../hooks/useDarkMode';
 import styles from './AppWrapper.module.css';
-function AppWrapper({ children }) {
+
+interface AppWrapperProps {
+  children: React.ReactNode;
+}
+function AppWrapper({ children }: AppWrapperProps) {
   const [colorTheme, setTheme] = useDarkMode();
 
   return (
@@ -8,7 +13,7 @@ function AppWrapper({ children }) {
       <div className={styles.buttonWrapper}>
         <button
           onClick={() =>
-            setTheme((p: string) => (p === 'dark' ? 'light' : 'dark'))
+            setTheme((colorTheme) => (colorTheme === 'dark' ? 'light' : 'dark'))
           }>
           {colorTheme.toUpperCase()}
         </button>
