@@ -17,7 +17,7 @@ function useDarkMode() {
     }
   }, [colorTheme, theme]);
 
-  return [colorTheme, setTheme] as const;
+  return [theme, setTheme] as const;
 }
 
 export default useDarkMode;

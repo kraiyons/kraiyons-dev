@@ -4,3 +4,29 @@
   width: 100%;
   padding: 1rem;
 }
+
+.buttonWrapper button {
+  font-size: 1.5rem;
+  /* background-color: transparent; */
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.buttonWrapper button svg {
+  margin-right: 0.5rem;
+  color: #000;
+}
+
+/* .dark__button button svg {
+  color: yellow;
+}
+
+.buttonWrapper button span {
+  color: #000;
+}
+
+.dark__button button span {
+  color: #fff;
+} */
