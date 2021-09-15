@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import AppWrapper from '../components/AppWrapper';
+
 const Home: NextPage = () => {
   return (
     <AppWrapper>

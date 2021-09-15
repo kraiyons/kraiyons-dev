@@ -1,6 +1,7 @@
 import useDarkMode from '../../hooks/useDarkMode';
 import MoonIcon from '../ThemeButton/MoonIcon';
 import SunIcon from '../ThemeButton/SunIcon';
+import useHasMounted from '../../hooks/useHasMounted';
 import styles from './AppWrapper.module.css';
 
 interface AppWrapperProps {
@@ -8,7 +9,7 @@ interface AppWrapperProps {
 }
 function AppWrapper({ children }: AppWrapperProps) {
   const [colorTheme, setTheme] = useDarkMode();
-
+  const hasMounted = useHasMounted();
   return (
     <div>
       <div className={styles.buttonWrapper}>
@@ -17,7 +18,7 @@ function AppWrapper({ children }: AppWrapperProps) {
           onClick={() =>
             setTheme((colorTheme) => (colorTheme === 'dark' ? 'light' : 'dark'))
           }>
-          {colorTheme === 'dark' ? <MoonIcon /> : <SunIcon />}
+          {hasMounted && colorTheme === 'dark' ? <MoonIcon /> : <SunIcon />}
           <span>{colorTheme.toUpperCase()}</span>
         </button>
       </div>
